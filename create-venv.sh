@@ -1,0 +1,5 @@
+#!/bin/bash
+set -e
+python3 -m venv .
+source bin/activate
+pip install grpcio grpcio-tools parameterized
